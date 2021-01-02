@@ -73,7 +73,7 @@ class PriorityQueue:
     def pop(self):
         while self.pq:
             priority, count, item = heapq.heappop(self.pq)
-            if item is not 'Removed':
+            if item != 'Removed':
                 del self.entry_finder[item]
                 return item
         raise KeyError('pop from an empty priority queue')
@@ -81,7 +81,7 @@ class PriorityQueue:
     def top(self):
         while self.pq:
             priority, count, item = heapq.heappop(self.pq)
-            if item is not 'Removed':
+            if item != 'Removed':
                 del self.entry_finder[item]
                 self.push(item)
                 return item
@@ -231,7 +231,7 @@ class Voronoi:
         F = C * (a.x + c.x) + D * (a.y + c.y)
         G = 2 * (A * (c.y - b.y) - B * (c.x - b.x))
 
-        if G == 0: return False, None, None
+        if (G == 0): return False, None, None
 
         ox = 1.0 * (D * E - B * F) / G
         oy = 1.0 * (A * F - C * E) / G
