@@ -1,0 +1,10 @@
+Voronoi (Fortune's Algorithm)
+-----------
+
+Można odpalic program w CanvasStart z wizualizacja, lub tylko opadlić w launchVeronori i dostać jako odpowiedź liste prsotych
+
+Może być konieczność instalacji bibliotek, ale Pycharm powinnien samemu to podpowiedzieć, jeśli nie to można w terminalu Pycharma zainstalować komendą pip -install ...
+
+----------
+
+Napisałem własne środowisko Canvas do wizualizacji, wizualzacja kolejnych kroków możliwa, przy zmianie wypisywania prostych ( można wywoływać po kolei w pętli, jednak jest to czasochłonne )
