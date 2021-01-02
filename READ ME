@@ -7,4 +7,4 @@ Może być konieczność instalacji bibliotek, ale Pycharm powinnien samemu to p
 
 ----------
 
-Napisałem własne środowisko Canvas do wizualizacji, wizualzacja kolejnych kroków możliwa, przy zmianie wypisywania prostych ( można wywoływać po kolei w pętli, jednak jest to czasochłonne )
+Napisałem własne środowisko Canvas do wizualizacji, wizualzacja kolejnych kroków możliwa, przy zmianie wypisywania prostych ( można wywoływać po kolei w pętli, jednak jest to czasochłonne (przewijanie tych punktów))
