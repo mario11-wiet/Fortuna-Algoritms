@@ -91,8 +91,6 @@ class PriorityQueue:
         return not self.pq
 
 
-
-
 class Voronoi:
     def __init__(self, points):
         self.output = []

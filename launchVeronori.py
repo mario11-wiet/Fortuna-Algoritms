@@ -12,11 +12,12 @@ def losowe(n):
         tab.append((x, y))
 
 
-losowe(500)
+losowe(100)
 print(len(tab))
 start = time.time()
 vp = V.Voronoi(tab)
 vp.process()
+print(vp.get_output())
 
 end = time.time()
 
